@@ -1,4 +1,18 @@
-Setup the React Project
+Project Setup
+Creating the Project:
+
+Start by creating a new React project using Create React App.
+Install necessary dependencies: React, Redux, React-Redux, and Bootstrap.
+cd to-do
+1.npx create-react-app to-do
+npm install redux react-redux
+npm install redux
+
+and then Creating style the application use Bootstrap 
+1. Setup Bootstrap
+Install Bootstrap via npm:
+npm install bootstrap
+
 Create Components (TaskInput, TaskList)
 
 Task Input Component (src/components/TaskInput.js)
@@ -37,23 +51,6 @@ Purpose:
 
 Implement Task Addition, Deletion, and Editing
 
-Project Setup
-Creating the Project:
-
-Start by creating a new React project using Create React App.
-Install necessary dependencies: React, Redux, React-Redux, and Bootstrap.
-1.npx create-react-app to-do
-cd to-do
-npm install redux react-redux
-npm install redux
-
-and then Creating style the application use Bootstrap 
-1. Setup Bootstrap
-Install Bootstrap via npm:
-npm install bootstrap
-
-
-
 to-do/
 ├── public/
 │   └── index.html
@@ -75,5 +72,6 @@ to-do/
 Start the Application:
 
 Run the following command to start the development server:
+cd to-do
 npm start
 
